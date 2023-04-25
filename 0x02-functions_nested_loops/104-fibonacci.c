@@ -29,8 +29,8 @@ num1 = (num / l);
 num2 = (num % l);
 for (z = 92; z < 99; ++z)
 {
-printf(", %lu", aft1 + (aft2 / l));
-printf("%lu", aft2 % l);
+printf(", %lu", num1 + (num2 / l));
+printf("%lu", num2 % l);
 num1 = num1 + fibo1;
 fibo1 = num1 - fibo1;
 num2 = num2 + fibo2;

@@ -27,6 +27,6 @@ n = n / c;
 }
 if (n > 2)
 b = n;
-printf("%ld\n", max);
+printf("%ld\n", b);
 return (0);
 }

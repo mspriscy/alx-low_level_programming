@@ -3,7 +3,7 @@
 
 /**
 * rot13 - a function that encodes using rot13
-* @s: pointer 
+* @s: pointer
 *
 * Return: *s
 */

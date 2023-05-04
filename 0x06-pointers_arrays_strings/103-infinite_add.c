@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
 * rev_string - reverse array
 * @n: integer params
 * Return: 0
 */
+
 void rev_string(char *n)
 {
 int s = 0;
@@ -21,6 +23,7 @@ temp = *(n + z);
 *(n + s) = temp;
 }
 }
+
 /**
 * infinite_add - a function that adds two numbers
 * @n1: text representation of 1st number to add

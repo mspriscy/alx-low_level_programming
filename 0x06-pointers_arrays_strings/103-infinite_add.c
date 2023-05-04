@@ -46,11 +46,11 @@ while (z >= 0 || s >= 0 || overflow == 1)
 if (s < 0)
 val1 = 0;
 else
-val1 = *(n1 + s) - '0';
+val1 = *(n1 + s) -'0';
 if (z < 0)
 val2 = 0;
 else
-val2 = *(n2 + z) - '0';
+val2 = *(n2 + z) -'0';
 temp_tot = val1 + val2 + overflow;
 if (temp_tot >= 10)
 overflow = 1;

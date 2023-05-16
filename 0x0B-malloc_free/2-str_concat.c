@@ -6,7 +6,7 @@
 * @s1: the first string to concatenate
 * @s2: the second string to concatenate
 *
-* Return: the two string concatenated 
+* Return: the two string concatenated
 */
 char *str_concat(char *s1, char *s2)
 {
@@ -21,14 +21,14 @@ i++;
 while (s2[j])
 j++;
 l = i + j;
-s = malloc((sizeof(char) * l) + 1);
+s = malloc((sizeof(char) * l) +1);
 if (s == NULL)
 return (NULL);
 j = 0;
 while (k < l)
 {
 if (k <= i)
-s[k] =s1[k];
+s[k] = s1[k];
 if (k >= i)
 {
 s[k] = s2[j];
